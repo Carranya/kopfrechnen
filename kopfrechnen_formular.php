@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Kopfrechnen</title>
+    <link rel="stylesheet" href="format.css">
 </head>
 <body>
     <h2>Kopfrechnen Übung</h2>

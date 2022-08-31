@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Kopfrechnen</title>
+    <link rel="stylesheet" href="format.css">
 </head>
 <body>
     <h2>Kopfrechnen Übung</h2>
@@ -13,7 +14,7 @@ $z = file_get_contents("kopfrechnen.dat");
 $rechnen = unserialize($z);
 $rechnen->auswerten($_POST['eingabe']);
 ?>
-<form action="kopfrechnen_start.htm" method="post">
+<form action="index.htm" method="post">
 <p><input type="submit" value="Nochmals?"></p>
 </form>
 </body>
